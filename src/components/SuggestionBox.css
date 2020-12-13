@@ -1,0 +1,25 @@
+.suggestion {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.suggestion_id {
+  font-weight: 800;
+}
+
+.suggestion_address {
+  color:grey;
+  font-size: 1.05rem;
+  margin-top: 0.5rem;
+}
+
+.suggestion_pincode {
+  color:grey;
+  font-size: 1.05rem;
+}
+
+.suggestion_items {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}

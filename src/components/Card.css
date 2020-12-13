@@ -1,0 +1,30 @@
+.card {
+  margin: .5rem;
+  padding: 1rem;
+  background-color: rgb(206, 114, 114);
+  box-shadow: 4px 4px 8px 0 rgba(0,0,0,.2);
+  border-width: .25rem;
+  border-radius: .5rem;
+  transition: all .3s ease-in-out;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card_name {
+  font-size: 1.175rem;
+}
+
+.card_grey {
+  color: rgb(75, 72, 72);
+  font-size: 1.05rem;
+}
+
+.card_items {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 1.125rem;
+}
